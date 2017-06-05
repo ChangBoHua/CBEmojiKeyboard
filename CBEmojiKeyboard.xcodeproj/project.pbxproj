@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856069111EE53FE6007BD3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069101EE53FE6007BD3A2 /* main.m */; };
+		856069141EE53FE6007BD3A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069131EE53FE6007BD3A2 /* AppDelegate.m */; };
+		856069171EE53FE6007BD3A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069161EE53FE6007BD3A2 /* ViewController.m */; };
+		8560691A1EE53FE6007BD3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856069181EE53FE6007BD3A2 /* Main.storyboard */; };
+		8560691C1EE53FE6007BD3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8560691B1EE53FE6007BD3A2 /* Assets.xcassets */; };
+		8560691F1EE53FE6007BD3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8560691D1EE53FE6007BD3A2 /* LaunchScreen.storyboard */; };
+		8560692A1EE53FE6007BD3A2 /* CBEmojiKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069291EE53FE6007BD3A2 /* CBEmojiKeyboardTests.m */; };
+		856069351EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069341EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		856069261EE53FE6007BD3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856069041EE53FE6007BD3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8560690B1EE53FE6007BD3A2;
+			remoteInfo = CBEmojiKeyboard;
+		};
+		856069311EE53FE6007BD3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856069041EE53FE6007BD3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8560690B1EE53FE6007BD3A2;
+			remoteInfo = CBEmojiKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8560690C1EE53FE6007BD3A2 /* CBEmojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBEmojiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856069101EE53FE6007BD3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		856069121EE53FE6007BD3A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		856069131EE53FE6007BD3A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		856069151EE53FE6007BD3A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		856069161EE53FE6007BD3A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		856069191EE53FE6007BD3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8560691B1EE53FE6007BD3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8560691E1EE53FE6007BD3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		856069201EE53FE6007BD3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856069251EE53FE6007BD3A2 /* CBEmojiKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBEmojiKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856069291EE53FE6007BD3A2 /* CBEmojiKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBEmojiKeyboardTests.m; sourceTree = "<group>"; };
+		8560692B1EE53FE6007BD3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856069301EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBEmojiKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856069341EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBEmojiKeyboardUITests.m; sourceTree = "<group>"; };
+		856069361EE53FE7007BD3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		856069091EE53FE6007BD3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856069221EE53FE6007BD3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8560692D1EE53FE6007BD3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		856069031EE53FE6007BD3A2 = {
+			isa = PBXGroup;
+			children = (
+				8560690E1EE53FE6007BD3A2 /* CBEmojiKeyboard */,
+				856069281EE53FE6007BD3A2 /* CBEmojiKeyboardTests */,
+				856069331EE53FE6007BD3A2 /* CBEmojiKeyboardUITests */,
+				8560690D1EE53FE6007BD3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8560690D1EE53FE6007BD3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8560690C1EE53FE6007BD3A2 /* CBEmojiKeyboard.app */,
+				856069251EE53FE6007BD3A2 /* CBEmojiKeyboardTests.xctest */,
+				856069301EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8560690E1EE53FE6007BD3A2 /* CBEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				856069121EE53FE6007BD3A2 /* AppDelegate.h */,
+				856069131EE53FE6007BD3A2 /* AppDelegate.m */,
+				856069151EE53FE6007BD3A2 /* ViewController.h */,
+				856069161EE53FE6007BD3A2 /* ViewController.m */,
+				856069181EE53FE6007BD3A2 /* Main.storyboard */,
+				8560691B1EE53FE6007BD3A2 /* Assets.xcassets */,
+				8560691D1EE53FE6007BD3A2 /* LaunchScreen.storyboard */,
+				856069201EE53FE6007BD3A2 /* Info.plist */,
+				8560690F1EE53FE6007BD3A2 /* Supporting Files */,
+			);
+			path = CBEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		8560690F1EE53FE6007BD3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				856069101EE53FE6007BD3A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		856069281EE53FE6007BD3A2 /* CBEmojiKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				856069291EE53FE6007BD3A2 /* CBEmojiKeyboardTests.m */,
+				8560692B1EE53FE6007BD3A2 /* Info.plist */,
+			);
+			path = CBEmojiKeyboardTests;
+			sourceTree = "<group>";
+		};
+		856069331EE53FE6007BD3A2 /* CBEmojiKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				856069341EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.m */,
+				856069361EE53FE7007BD3A2 /* Info.plist */,
+			);
+			path = CBEmojiKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8560690B1EE53FE6007BD3A2 /* CBEmojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856069391EE53FE7007BD3A2 /* Build configuration list for PBXNativeTarget "CBEmojiKeyboard" */;
+			buildPhases = (
+				856069081EE53FE6007BD3A2 /* Sources */,
+				856069091EE53FE6007BD3A2 /* Frameworks */,
+				8560690A1EE53FE6007BD3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBEmojiKeyboard;
+			productName = CBEmojiKeyboard;
+			productReference = 8560690C1EE53FE6007BD3A2 /* CBEmojiKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		856069241EE53FE6007BD3A2 /* CBEmojiKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8560693C1EE53FE7007BD3A2 /* Build configuration list for PBXNativeTarget "CBEmojiKeyboardTests" */;
+			buildPhases = (
+				856069211EE53FE6007BD3A2 /* Sources */,
+				856069221EE53FE6007BD3A2 /* Frameworks */,
+				856069231EE53FE6007BD3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856069271EE53FE6007BD3A2 /* PBXTargetDependency */,
+			);
+			name = CBEmojiKeyboardTests;
+			productName = CBEmojiKeyboardTests;
+			productReference = 856069251EE53FE6007BD3A2 /* CBEmojiKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8560692F1EE53FE6007BD3A2 /* CBEmojiKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8560693F1EE53FE7007BD3A2 /* Build configuration list for PBXNativeTarget "CBEmojiKeyboardUITests" */;
+			buildPhases = (
+				8560692C1EE53FE6007BD3A2 /* Sources */,
+				8560692D1EE53FE6007BD3A2 /* Frameworks */,
+				8560692E1EE53FE6007BD3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856069321EE53FE6007BD3A2 /* PBXTargetDependency */,
+			);
+			name = CBEmojiKeyboardUITests;
+			productName = CBEmojiKeyboardUITests;
+			productReference = 856069301EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		856069041EE53FE6007BD3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "俊欧巴";
+				TargetAttributes = {
+					8560690B1EE53FE6007BD3A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					856069241EE53FE6007BD3A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8560690B1EE53FE6007BD3A2;
+					};
+					8560692F1EE53FE6007BD3A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8560690B1EE53FE6007BD3A2;
+					};
+				};
+			};
+			buildConfigurationList = 856069071EE53FE6007BD3A2 /* Build configuration list for PBXProject "CBEmojiKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 856069031EE53FE6007BD3A2;
+			productRefGroup = 8560690D1EE53FE6007BD3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8560690B1EE53FE6007BD3A2 /* CBEmojiKeyboard */,
+				856069241EE53FE6007BD3A2 /* CBEmojiKeyboardTests */,
+				8560692F1EE53FE6007BD3A2 /* CBEmojiKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8560690A1EE53FE6007BD3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8560691F1EE53FE6007BD3A2 /* LaunchScreen.storyboard in Resources */,
+				8560691C1EE53FE6007BD3A2 /* Assets.xcassets in Resources */,
+				8560691A1EE53FE6007BD3A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856069231EE53FE6007BD3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8560692E1EE53FE6007BD3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		856069081EE53FE6007BD3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856069171EE53FE6007BD3A2 /* ViewController.m in Sources */,
+				856069141EE53FE6007BD3A2 /* AppDelegate.m in Sources */,
+				856069111EE53FE6007BD3A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856069211EE53FE6007BD3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8560692A1EE53FE6007BD3A2 /* CBEmojiKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8560692C1EE53FE6007BD3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856069351EE53FE6007BD3A2 /* CBEmojiKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		856069271EE53FE6007BD3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8560690B1EE53FE6007BD3A2 /* CBEmojiKeyboard */;
+			targetProxy = 856069261EE53FE6007BD3A2 /* PBXContainerItemProxy */;
+		};
+		856069321EE53FE6007BD3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8560690B1EE53FE6007BD3A2 /* CBEmojiKeyboard */;
+			targetProxy = 856069311EE53FE6007BD3A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		856069181EE53FE6007BD3A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856069191EE53FE6007BD3A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8560691D1EE53FE6007BD3A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8560691E1EE53FE6007BD3A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		856069371EE53FE7007BD3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		856069381EE53FE7007BD3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8560693A1EE53FE7007BD3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CBEmojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------------.CBEmojiKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8560693B1EE53FE7007BD3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CBEmojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------------.CBEmojiKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8560693D1EE53FE7007BD3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CBEmojiKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------------.CBEmojiKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBEmojiKeyboard.app/CBEmojiKeyboard";
+			};
+			name = Debug;
+		};
+		8560693E1EE53FE7007BD3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CBEmojiKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------------.CBEmojiKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBEmojiKeyboard.app/CBEmojiKeyboard";
+			};
+			name = Release;
+		};
+		856069401EE53FE7007BD3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CBEmojiKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------------.CBEmojiKeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CBEmojiKeyboard;
+			};
+			name = Debug;
+		};
+		856069411EE53FE7007BD3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CBEmojiKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "------------.CBEmojiKeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CBEmojiKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		856069071EE53FE6007BD3A2 /* Build configuration list for PBXProject "CBEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856069371EE53FE7007BD3A2 /* Debug */,
+				856069381EE53FE7007BD3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856069391EE53FE7007BD3A2 /* Build configuration list for PBXNativeTarget "CBEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8560693A1EE53FE7007BD3A2 /* Debug */,
+				8560693B1EE53FE7007BD3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8560693C1EE53FE7007BD3A2 /* Build configuration list for PBXNativeTarget "CBEmojiKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8560693D1EE53FE7007BD3A2 /* Debug */,
+				8560693E1EE53FE7007BD3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8560693F1EE53FE7007BD3A2 /* Build configuration list for PBXNativeTarget "CBEmojiKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856069401EE53FE7007BD3A2 /* Debug */,
+				856069411EE53FE7007BD3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 856069041EE53FE6007BD3A2 /* Project object */;
+}
