@@ -16,4 +16,4 @@
 
 ### 演示截图如下：
 
-![image](https://github.com/ChangBoHua/CBEmojiKeyboard/CBEmojiKeyboard/1.png)
+![image](https://github.com/ChangBoHua/CBEmojiKeyboard/blob/master/CBEmojiKeyboard/1.png)
