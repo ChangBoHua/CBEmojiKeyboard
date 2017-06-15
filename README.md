@@ -7,11 +7,11 @@
 
 #### 第一个是点击了表情按钮的代理方法
 
-  （1）- (void)emojiBtnDidClick:(NSString *)emojiStr
+  （1）-(void)emojiBtnDidClick:(NSString *)emojiStr
 
 #### 第二个是点击了删除按钮的代理方法
 
- （2）-(void)deleteBtnDicClick:(UIButton *)btn
+  （2）-(void)deleteBtnDicClick:(UIButton *)btn
 
 
 ### 演示截图如下：
