@@ -59,7 +59,6 @@
     [NSString setDeleteEmojiStr:self.contentLabel.text returnBlock:^(NSString *returnStr) {
         self.contentLabel.text = returnStr;
     }];
-  
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
