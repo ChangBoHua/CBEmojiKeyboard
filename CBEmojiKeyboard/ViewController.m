@@ -43,12 +43,10 @@
     }
     return _contentLabel;
 }
-
 - (EmojiKeyboarView *)emojiKeyboard{
     if (!_emojiKeyboard) {
         _emojiKeyboard = [[EmojiKeyboarView alloc] initWithFrame:CGRectMake(0,self.view.height-170.5 , self.view.width, 170.5)];
         _emojiKeyboard.delegate = self;
-        
     }
     return _emojiKeyboard;
 }

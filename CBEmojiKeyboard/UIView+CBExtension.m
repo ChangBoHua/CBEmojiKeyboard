@@ -77,7 +77,7 @@
  *  getter方法
  */
 -(CGFloat)x{
-    
+
     return  self.frame.origin.x;
 }
 
