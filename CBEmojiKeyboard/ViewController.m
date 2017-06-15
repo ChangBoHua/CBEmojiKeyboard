@@ -23,7 +23,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self addSubViews];
-    
 }
 - (void)addSubViews{
     [self.view addSubview:self.emojiKeyboard];
