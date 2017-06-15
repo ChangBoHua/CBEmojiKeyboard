@@ -8,4 +8,4 @@
  （2）-(void)deleteBtnDicClick:(UIButton *)btn
 --------------------------------------------------------------------
 演示截图如下：
-![image](https://github.com/ChangBoHua/CBEmojiKeyboard/CBEmojiKeyboard/演示图片.png)
+![image](https://github.com/ChangBoHua/CBEmojiKeyboard/CBEmojiKeyboard/1.png)

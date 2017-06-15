@@ -32,7 +32,7 @@
 		85573B9E1EF2647000FF0131 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85573B8D1EF2647000FF0131 /* YYLabel.m */; };
 		85573B9F1EF2647000FF0131 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85573B901EF2647000FF0131 /* YYTextView.m */; };
 		85573BA21EF2664000FF0131 /* NSString+SimpleModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 85573BA11EF2664000FF0131 /* NSString+SimpleModifier.m */; };
-		85573BA41EF27C4500FF0131 /* 演示图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 85573BA31EF27C4500FF0131 /* 演示图片.png */; };
+		85573BA41EF27C4500FF0131 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85573BA31EF27C4500FF0131 /* 1.png */; };
 		856069111EE53FE6007BD3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069101EE53FE6007BD3A2 /* main.m */; };
 		856069141EE53FE6007BD3A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069131EE53FE6007BD3A2 /* AppDelegate.m */; };
 		856069171EE53FE6007BD3A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856069161EE53FE6007BD3A2 /* ViewController.m */; };
@@ -209,7 +209,7 @@
 		85573B901EF2647000FF0131 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
 		85573BA01EF2664000FF0131 /* NSString+SimpleModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SimpleModifier.h"; sourceTree = "<group>"; };
 		85573BA11EF2664000FF0131 /* NSString+SimpleModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SimpleModifier.m"; sourceTree = "<group>"; };
-		85573BA31EF27C4500FF0131 /* 演示图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "演示图片.png"; sourceTree = "<group>"; };
+		85573BA31EF27C4500FF0131 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		8560690C1EE53FE6007BD3A2 /* CBEmojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBEmojiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856069101EE53FE6007BD3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		856069121EE53FE6007BD3A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -494,7 +494,7 @@
 		8560690F1EE53FE6007BD3A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				85573BA31EF27C4500FF0131 /* 演示图片.png */,
+				85573BA31EF27C4500FF0131 /* 1.png */,
 				856069181EE53FE6007BD3A2 /* Main.storyboard */,
 				8560691B1EE53FE6007BD3A2 /* Assets.xcassets */,
 				8560691D1EE53FE6007BD3A2 /* LaunchScreen.storyboard */,
@@ -816,7 +816,7 @@
 				856069E51EE54027007BD3A2 /* im_ee_73@2x.png in Resources */,
 				856069B31EE54027007BD3A2 /* im_ee_23@2x.png in Resources */,
 				856069A11EE54027007BD3A2 /* im_ee_5@2x.png in Resources */,
-				85573BA41EF27C4500FF0131 /* 演示图片.png in Resources */,
+				85573BA41EF27C4500FF0131 /* 1.png in Resources */,
 				856069AF1EE54027007BD3A2 /* im_ee_19@2x.png in Resources */,
 				856069D51EE54027007BD3A2 /* im_ee_57@2x.png in Resources */,
 				856069F11EE54027007BD3A2 /* im_ee_85@2x.png in Resources */,
